@@ -1,0 +1,148 @@
+@font-face { font-family: Noir; src: url('./Noir_medium.otf'); }
+@font-face { font-family: Poppins; src: url('./Poppins-Medium.ttf'); }
+
+nav {
+    background-color: #000000a8;
+}
+
+h1 {
+    font-family: Noir;
+    text-align: center;
+    color: #980101;
+    position: relative;
+    top: -10px;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: Poppins;
+    text-align: center;
+    color: #980101;
+    position: relative; 
+    top: -10px;
+    font-size: 30px;
+}
+
+h3, h5 {
+    font-family: Poppins;
+    text-align: center;
+    color:whitesmoke;
+    position: relative;
+    font-size: px;
+}
+
+body {
+    background-color: rgb(124, 115, 176);
+    background-image: url("/static/images/background-bar.jpg");
+    background-size: 100vw;
+    margin-top: 25vh;
+}
+
+/* '.' is how we target a class */
+.content, .profile-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #000000a8;
+    align-items: center;
+    border-radius: 9px;
+    padding: 10px;
+    min-height: 222px;
+    margin-top: 34px;
+}
+
+.profile-content {
+    width: 92%;
+    padding: 30px;
+}
+
+video {
+    width: 800px;
+    height: 800px;
+}
+
+input {
+    width: 79%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid transparent
+}
+
+button, a, .button {
+    padding: 13px 26px;
+    border: 1px solid #980101;
+    border-radius: 7px !important;
+    cursor: pointer;
+    background-color: #980101;
+    color: white !important;
+    margin: 0 6px 16px 6px;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #980101 !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    width: 18%;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    background-color: #000000a8;
+    align-items: center;
+    border-radius: 9px;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.result {
+    color: white;
+    font-family: Poppins
+  }
+
+.nav-link {
+    padding-left: 8px !important;
+}
+
+.table-div {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000a8;
+}
+
+table {
+    margin: 0 20px;
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+th {
+    text-align: center !important;
+    font-size: 14px;
+  }
+
